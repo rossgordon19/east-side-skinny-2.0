@@ -28,7 +28,7 @@ const Hero = () => {
         {/* The overlay */}
         <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
         {/* The content */}
-        <div className="absolute left-1/2 top-0 md:top-1/2 md:-translate-y-1/2 transform -translate-x-1/2 md:left-3/4 md:top-1/2 md:-translate-x-1/2 mt-[230px] sm:mt-0">
+        <div className="absolute left-1/2 top-0 md:top-1/2 md:-translate-y-1/2 transform -translate-x-1/2 md:left-3/4 md:top-1/2 md:-translate-x-1/2 mt-[200px] sm:mt-0">
   <div className="flex flex-col items-center">
     <h1 className="font-bold text-white leading-tight text-center text-5xl md:text-7xl mt-8 sm:mt-0">
       Skinny V Archive
