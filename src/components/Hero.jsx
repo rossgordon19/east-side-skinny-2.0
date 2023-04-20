@@ -28,18 +28,20 @@ const Hero = () => {
         {/* The overlay */}
         <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
         {/* The content */}
-        <div className="absolute left-1/2 top-0 md:top-1/2 md:-translate-y-1/2 transform -translate-x-1/2 md:left-3/4 md:top-1/2 md:-translate-x-1/2">
-          <div className="flex flex-col items-center">
-            <h1 className="font-bold text-white leading-tight text-center text-5xl md:text-7xl pt-[200px] lg:pt-0">
-              Skinny V Archive
-              <br />
-              Vol. 1
-            </h1>
-            <button className="mt-4 bg-white text-black border border-black py-3 px-6 rounded text-2xl">
-              Listen Now
-            </button>
-          </div>
-        </div>
+        <div className="absolute left-1/2 top-0 md:top-1/2 md:-translate-y-1/2 transform -translate-x-1/2 md:left-3/4 md:top-1/2 md:-translate-x-1/2 mt-[230px] sm:mt-0">
+  <div className="flex flex-col items-center">
+    <h1 className="font-bold text-white leading-tight text-center text-5xl md:text-7xl mt-8 sm:mt-0">
+      Skinny V Archive
+      <br />
+      Vol. 1
+    </h1>
+    <button className="mt-4 bg-white text-black border border-black py-3 px-6 rounded text-2xl hover:bg-black hover:text-white">
+      Listen Now
+    </button>
+  </div>
+</div>
+
+
       </div>
     </div>
   );
