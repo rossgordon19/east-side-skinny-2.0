@@ -14,7 +14,7 @@ const Hero = () => {
       {/* The image container */}
       <div className="absolute inset-0 flex justify-center items-center md:justify-start">
         {/* The image */}
-        <div className="flex flex-col justify-center items-center mt-[-330px] sm:mt-0 md:absolute md:left-1/4 md:top-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 sm:left-1/2 sm:top-1/4">
+        <div className="flex flex-col justify-center items-center mt-[-300px] sm:mt-0 md:absolute md:left-1/4 md:top-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 sm:left-1/2 sm:top-1/4">
           <img
             src={svFront}
             alt="SV Front"
@@ -32,7 +32,7 @@ const Hero = () => {
           {/* The text and button container */}
           <div className="flex flex-col items-center md:absolute md:left-1/2 md:top-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 mt-12 md:mt-0">
             {/* The text */}
-            <h1 className="font-bold text-white leading-tight text-center text-5xl md:text-7xl mt-8 sm:mt-0">
+            <h1 className="font-bold text-white leading-tight text-center text-5xl md:text-7xl mt-24 sm:mt-0">
               Skinny V Archive
               <br />
               Vol. 1
