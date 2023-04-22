@@ -32,7 +32,7 @@ const Hero = () => {
           {/* The text and button container */}
           <div className="flex flex-col items-center md:absolute md:left-1/2 md:top-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 mt-12 md:mt-0">
             {/* The text */}
-            <h1 className="font-bold text-white leading-tight text-center text-5xl md:text-7xl mt-[75px] sm:mt-0">
+            <h1 className="font-bold text-white leading-tight text-center text-5xl md:text-7xl mt-[50px] sm:mt-0">
               Skinny V Archive
               <br />
               Vol. 1
