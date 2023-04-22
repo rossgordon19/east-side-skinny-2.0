@@ -18,7 +18,7 @@ const Hero = () => {
           <img
             src={svFront}
             alt="SV Front"
-            className="h-64 w-64 md:h-72 md:w-72 object-cover object-center scale-75 md:scale-150 sm:h-42 sm:w-42 md:mb-0 sm:h-80 sm:w-80 sm:object-cover sm:object-center sm:scale-125"
+            className="h-72 w-72 md:h-72 md:w-72 object-cover object-center scale-75 md:scale-150 sm:h-42 sm:w-42 md:mb-0 sm:h-80 sm:w-80 sm:object-cover sm:object-center sm:scale-125"
           />
         </div>
       </div>
