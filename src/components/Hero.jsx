@@ -29,7 +29,7 @@ const Hero = () => {
             <br />
             Vol. 1
           </h1>
-          <button className="mt-4 bg-white text-black border border-black py-3 px-6 rounded text-2xl hover:bg-black hover:text-white">
+          <button className="mt-4 bg-white text-black border border-black py-3 px-6 rounded text-2xl hover:bg-[#d03b26]">
             <Link
             to='listen'
             smooth={true}
