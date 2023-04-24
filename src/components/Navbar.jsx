@@ -18,7 +18,7 @@ const Navbar = () => {
         </li>
 
         <li className="hover:underline">
-          <Link to="Listen" smooth={true} duration={500}>
+          <Link to="listen" smooth={true} duration={500}>
             Listen
           </Link>
         </li>
