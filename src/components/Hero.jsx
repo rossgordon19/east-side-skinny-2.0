@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const Hero = () => {
   return (
-    <div name='home' className="relative h-screen">
+    <div name="home" className="relative h-screen">
       {/* background img */}
       <div
         className="absolute inset-0 bg-cover bg-center"
