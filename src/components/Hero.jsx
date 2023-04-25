@@ -12,9 +12,9 @@ const Hero = () => {
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         {/* overlay */}
-        <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
+        <div className="absolute inset-0 bg-gray-900 opacity-50 sm:px-4 md:px-8 lg:px-16"></div>
       </div>
-      <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 h-full px-4 sm:px-6 lg:px-8">        
+      <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 h-full px-4 sm:px-6 lg:px-8">
         {/* img container */}
         <div className="flex justify-center items-center md:absolute md:left-1/4 md:top-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2">
           <img
@@ -30,11 +30,7 @@ const Hero = () => {
             Vol. 1
           </h1>
           <button className="mt-4 bg-white text-black border border-black py-3 px-6 rounded text-2xl hover:bg-[#d03b26]">
-            <Link
-            to='listen'
-            smooth={true}
-            duration={500}
-            >
+            <Link to="listen" smooth={true} duration={500}>
               Listen Now
             </Link>
           </button>
