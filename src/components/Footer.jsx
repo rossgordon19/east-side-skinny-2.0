@@ -1,9 +1,47 @@
 import React from 'react';
+import { BsEnvelopeFill } from 'react-icons/bs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faApple, faSpotify, faYoutube, faSoundcloud } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
-    <div name="contact" className="bg-black text-white h-[21vh] w-full flex justify-center items-center">
-      <h1 className='text-5xl'>Footer</h1>
+    <div className="w-full h-[210px] bg-[#000000] text-white flex flex-col justify-center items-center">
+      {/* Container */}
+      <div className="font-bold">
+        <p className="text-5xl mb-6 text-center">Contact</p>
+        <div className="flex flex-wrap justify-center">
+          {/* Email */}
+          <a
+            className="text-5xl hover:text-[#8D99AE] mx-4 my-2"
+            href="mailto:rossagordonstl@gmail.com"
+          >
+            <BsEnvelopeFill />
+          </a>
+
+          {/* Instagram */}
+          <a
+            className="text-5xl hover:text-[#8D99AE] mx-4 my-2"
+            href="https://www.instagram.com/yourinstagramusername/"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faInstagram} className="flex-grow flex-shrink-0 flex" />
+          </a>
+
+          {/* Twitter */}
+          <a
+            className="text-5xl hover:text-[#8D99AE] mx-4 my-2"
+            href="https://twitter.com/yourtwitterusername"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faTwitter} className="flex-grow flex-shrink-0 flex" />
+          </a>
+        </div>
+      </div>
+      {/* Copyright */}
+      <div className="text-white text-center mt-6">
+        <p>&copy; 2023 Skinny V</p>
+      </div>
     </div>
   );
 };
