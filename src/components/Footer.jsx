@@ -6,10 +6,10 @@ import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
-    <div className="w-full h-[210px] bg-[#000000] text-white flex flex-col justify-center items-center">
+    <div className="w-full h-[240px] bg-[#0a0908] text-[#f5f5f7] flex flex-col justify-center items-center">
       {/* Container */}
       <div className="font-bold">
-        <p className="text-5xl mb-6 text-center">Contact</p>
+        <p className="text-5xl mb-3 text-center">Contact</p>
         <div className="flex flex-wrap justify-center">
           {/* Email */}
           <a
@@ -39,8 +39,9 @@ const Footer = () => {
         </div>
       </div>
       {/* Copyright */}
-      <div className="text-white text-center mt-6">
+      <div className="text-white text-center mt-3">
         <p>&copy; 2023 Skinny V</p>
+        <p><a href='https://www.google.com' target='_blank'>Flextopia Records</a></p>
       </div>
     </div>
   );

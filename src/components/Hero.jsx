@@ -24,12 +24,12 @@ const Hero = () => {
           />
         </div>
         <div className="flex flex-col items-center justify-center md:absolute md:left-3/4 md:top-1/2 md:transform md:-translate-x-1/2 mb-[10px] lg:mt-[-155px]">
-          <h1 className="font-bold text-white text-center text-5xl md:text-7xl">
+          <h1 className="font-bold text-[#f5f5f7] text-center text-5xl md:text-7xl">
             Skinny V Archive
             <br />
             Vol. 1
           </h1>
-          <button className="mt-4 bg-white text-black border border-black py-3 px-6 rounded text-2xl hover:bg-[#d03b26]">
+          <button className="mt-4 bg-[#f5f5f7] text-[#0a0908] border border-black py-3 px-6 rounded text-2xl hover:bg-[#d03b26]">
             <Link to="listen" smooth={true} duration={500}>
               Listen Now
             </Link>
