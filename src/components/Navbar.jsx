@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-scroll';
+import '../../src/hamburgers.css'
 
 const Navbar = () => {
   // navbar toggle
@@ -31,7 +31,7 @@ const Navbar = () => {
       </ul>
 
       <div className="absolute left-1/2 transform -translate-x-1/2 text-xl">
-        <h1 className="font-bold text-5xl">Skinny V</h1>
+        <h1 className="font-bold text-5xl mb-2 lg:mb-0">Skinny V</h1>
       </div>
 
       {/* Hamburger Menu */}
@@ -40,9 +40,20 @@ const Navbar = () => {
         className="md:hidden z-10 flex justify-end w-full"
       >
         {!nav ? (
-          <AiOutlineMenu className="cursor-pointer" />
+          <button className="hamburger hamburger-vortex" type="button">
+          <span className="hamburger-box">
+            <span className="hamburger-inner"></span>
+          </span>
+        </button>
         ) : (
-          <AiOutlineClose className="cursor-pointer" />
+          <button
+            className="hamburger hamburger--vortex is-active"
+            type="button"
+          >
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
+            </span>
+          </button>
         )}
       </div>
 
@@ -54,17 +65,17 @@ const Navbar = () => {
             : 'absolute text-2xl top-0 left-0 w-full h-screen bg-[#000000] text-[#fff] flex flex-col justify-center items-center'
         }
       >
-        <li className="py-6 text-5xl hover:underline">
+        <li className="py-6 text-5xl hover:scale-110 cursor-pointer transform transition">
           <Link to="home" smooth={true} duration={500} onClick={handleClick}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-5xl hover:underline">
+        <li className="py-6 text-5xl hover:scale-110 cursor-pointer transform transition">
           <Link to="listen" smooth={true} duration={500} onClick={handleClick}>
             Listen
           </Link>
         </li>
-        <li className="py-6 text-5xl hover:underline">
+        <li className="py-6 text-5xl hover:scale-110 cursor-pointer transform transition">
           <Link to="contact" smooth={true} duration={500} onClick={handleClick}>
             Contact
           </Link>

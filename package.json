@@ -13,10 +13,10 @@
     "@emotion/styled": "^11.10.8",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "framer-motion": "^10.12.4",
     "react": "^18.2.0",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0",
     "react-scroll": "^1.8.9"
   },
   "devDependencies": {
