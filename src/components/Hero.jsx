@@ -30,7 +30,7 @@ const Hero = () => {
             </button>
           </Link>
           <Link to="listen" smooth={true} duration={500} className="sm:hidden">
-            <button className="bg-[#f5f5f7] transform -translate-y-[160px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline">
+            <button className="bg-[#f5f5f7] transform -translate-y-[140px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline">
               Listen Now
             </button>
           </Link>
