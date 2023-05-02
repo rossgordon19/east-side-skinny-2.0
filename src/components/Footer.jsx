@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsEnvelopeFill } from 'react-icons/bs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faApple, faSpotify, faYoutube, faSoundcloud } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
