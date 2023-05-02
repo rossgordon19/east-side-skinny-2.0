@@ -6,7 +6,7 @@ import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
-    <div className="w-full h-[240px] bg-[#0a0908] text-[#f5f5f7] flex flex-col justify-center items-center">
+    <div name='contact' className="w-full h-[240px] bg-[#0a0908] text-[#f5f5f7] flex flex-col justify-center items-center">
       {/* Container */}
       <div className="font-bold">
         <p className="text-5xl mb-3 text-center">Contact</p>

@@ -23,13 +23,8 @@ const Hero = () => {
             className="object-cover object-center md:mb-0 sm:object-cover sm:object-center h-64 w-64 lg:h-96 lg:w-96 scale-125"
           />
         </div>
-        <div className="flex flex-col items-center justify-center md:absolute md:left-3/4 md:top-1/2 md:transform md:-translate-x-1/2 mb-[10px] lg:mt-[-155px]">
-          <h1 className="font-bold text-[#f5f5f7] text-center text-5xl md:text-7xl">
-            Skinny V Archive
-            <br />
-            Vol. 1
-          </h1>
-          <button className="mt-4 bg-[#f5f5f7] text-[#0a0908] border border-black py-3 px-6 rounded text-2xl hover:bg-[#d03b26]">
+        <div className="flex flex-col items-center justify-center md:absolute md:left-3/4 md:top-1/2 md:transform md:-translate-x-1/2 lg:translate-y-[100px]">
+          <button className="bg-[#f5f5f7] hover:bg-[#0a0908] hover:text-[#f5f5f7] transform -translate-y-[150px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline">
             <Link to="listen" smooth={true} duration={500}>
               Listen Now
             </Link>
