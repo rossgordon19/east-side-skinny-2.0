@@ -29,7 +29,7 @@ const Hero = () => {
               Listen Now
             </Link>
           </button>
-          <button className="sm:hidden bg-[#f5f5f7] hover:bg-[#0a0908] hover:text-[#f5f5f7] transform -translate-y-[150px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline">
+          <button className="sm:hidden bg-[#f5f5f7] hover:bg-[#0a0908] hover:text-[#f5f5f7] transform -translate-y-[160px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline">
             <Link to="listen" smooth={true} duration={500}>
               Listen Now
             </Link>
