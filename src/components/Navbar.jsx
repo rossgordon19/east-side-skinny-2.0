@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="sticky top-0 z-50 w-full h-[80px] flex items-center px-4 bg-[#0a0908] text-[#f5f5f7]">
+    <div className="sticky top-0 z-50 w-full h-[80px] flex items-center px-4 bg-[#000000] text-[#f5f5f7]">
       {/* Navbar */}
       <ul className="hidden md:flex space-x-4 text-2xl">
         <li className="hover:underline">
