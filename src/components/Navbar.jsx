@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import '../../src/hamburgers.css'
+import '../../src/hamburgers.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { BsEnvelopeFill } from 'react-icons/bs';
 
 const Navbar = () => {
   // navbar toggle
@@ -41,10 +44,10 @@ const Navbar = () => {
       >
         {!nav ? (
           <button className="hamburger hamburger-vortex" type="button">
-          <span className="hamburger-box">
-            <span className="hamburger-inner"></span>
-          </span>
-        </button>
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
+            </span>
+          </button>
         ) : (
           <button
             className="hamburger hamburger--vortex is-active"
@@ -79,6 +82,17 @@ const Navbar = () => {
           <Link to="contact" smooth={true} duration={500} onClick={handleClick}>
             Contact
           </Link>
+        </li>
+        <li className="flex space-x-4 mt-4">
+          <a href="https://www.instagram.com/eastsideskinny/" target="_blank">
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
+          </a>
+          <a href="https://twitter.com/eastsideskinnyv" target="_blank">
+            <FontAwesomeIcon icon={faTwitter} size="2x" />
+          </a>
+          <a href="mailto:eastsideskinnyv@gmail.com">
+            <BsEnvelopeFill size={48} />
+          </a>
         </li>
       </ul>
     </div>

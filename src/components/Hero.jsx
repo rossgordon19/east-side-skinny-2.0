@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col items-center justify-center md:absolute md:left-3/4 md:top-1/2 md:transform md:-translate-x-1/2 lg:translate-y-[100px]">
           <Link to="listen" smooth={true} duration={500} className="hidden sm:block">
-            <button className="bg-[#f5f5f7] hover:bg-[#0a0908] hover:text-[#f5f5f7] transform -translate-y-[150px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline">
+            <button className="bg-[#f5f5f7] hover:bg-[#0a0908] hover:text-[#f5f5f7] hover:border border-white transform -translate-y-[150px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline">
               Listen Now
             </button>
           </Link>
