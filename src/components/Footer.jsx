@@ -22,7 +22,7 @@ const Footer = () => {
           {/* Instagram */}
           <a
             className="text-5xl hover:text-[#8D99AE] mx-4 my-2"
-            href="https://www.instagram.com/yourinstagramusername/"
+            href="https://www.instagram.com/eastsideskinny/"
             target="_blank"
           >
             <FontAwesomeIcon icon={faInstagram} className="flex-grow flex-shrink-0 flex" />
@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Twitter */}
           <a
             className="text-5xl hover:text-[#8D99AE] mx-4 my-2"
-            href="https://twitter.com/yourtwitterusername"
+            href="https://twitter.com/eastsideskinnyv"
             target="_blank"
           >
             <FontAwesomeIcon icon={faTwitter} className="flex-grow flex-shrink-0 flex" />
@@ -41,7 +41,7 @@ const Footer = () => {
       {/* Copyright */}
       <div className="text-white text-center mt-3">
         <p>&copy; 2023 Skinny V</p>
-        <p><a href='https://www.google.com' target='_blank'>Flextopia Records</a></p>
+        <p><a href='https://www.instagram.com/flextopiarecords/' target='_blank'>Flextopia Records</a></p>
       </div>
     </div>
   );
