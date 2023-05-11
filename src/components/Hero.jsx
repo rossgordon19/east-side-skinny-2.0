@@ -20,7 +20,7 @@ const Hero = () => {
           <img
             src={svFront}
             alt="SV Front"
-            className="object-cover object-center md:mb-0 sm:object-cover sm:object-center h-64 w-64 lg:h-96 lg:w-96 scale-125 "
+            className="object-cover object-center md:mb-0 sm:object-cover sm:object-center h-64 w-64 lg:h-96 lg:w-96 scale-125 lg:scale-150 "
           />
         </div>
         <div className="flex flex-col items-center justify-center md:absolute md:left-3/4 md:top-1/2 md:transform md:-translate-x-1/2 lg:translate-y-[100px]">
