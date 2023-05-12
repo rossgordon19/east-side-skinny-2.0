@@ -1,7 +1,6 @@
 import React from 'react';
 import backgroundImage from '../assets/hero.png';
 import svFront from '../assets/svFront2.png';
-import { Link } from 'react-scroll';
 
 const Hero = () => {
   return (
@@ -24,16 +23,20 @@ const Hero = () => {
           />
         </div>
         <div className="flex flex-col items-center justify-center md:absolute md:left-3/4 md:top-1/2 md:transform md:-translate-x-1/2 lg:translate-y-[100px]">
-          <Link to="listen" smooth={true} duration={500} className="hidden sm:block">
-            <button id="al" aria-label="Listen Now" className="bg-[#f5f5f7] hover:bg-[#0a0908] hover:text-[#f5f5f7] hover:border border-white transform -translate-y-[150px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline">
+          <a href="https://music.apple.com/us/artist/skinny-v/1559103897" target="_blank" rel="noopener noreferrer" className="hidden sm:block">
+            <button
+              id="al"
+              aria-label="Listen Now"
+              className="bg-[#f5f5f7] hover:bg-[#0a0908] hover:text-[#f5f5f7] hover:border border-white transform -translate-y-[150px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline"
+            >
               Listen Now
             </button>
-          </Link>
-          <Link to="listen" smooth={true} duration={500} className="sm:hidden">
+          </a>
+          <a href="https://music.apple.com/us/artist/skinny-v/1559103897" target="_blank" rel="noopener noreferrer" className="sm:hidden">
             <button className="bg-[#f5f5f7] transform -translate-y-[140px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline">
               Listen Now
             </button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
