@@ -27,7 +27,7 @@ const Hero = () => {
             <button
               id="al"
               aria-label="Listen Now"
-              className="bg-[#f5f5f7] hover:bg-[#0a0908] hover:text-[#f5f5f7] hover:border border-white transform -translate-y-[150px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline"
+              className="bg-[#f5f5f7] hover:bg-[#0a0908] hover:text-[#f5f5f7] hover:border border-white transform -translate-y-[130px] text-[#0a0908] font-bold text-2xl py-6 px-16 rounded-lg focus:outline-none focus:shadow-outline"
             >
               Listen Now
             </button>
