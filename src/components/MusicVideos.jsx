@@ -1,10 +1,10 @@
 import React from 'react';
 
-const MusicVideos = () => {
+const MusicVideo = () => {
   return (
     <div className="flex items-center justify-center bg-[#000000]">
       <div
-        className="w-full h-full md:h-[75%] md:w-[75%] relative"
+        className="w-full h-full md:h-[75%] lg:h-[60%] md:w-[75%] lg:w-[60%] relative"
         style={{ paddingBottom: '56.25%', paddingTop: '0' }}
       >
         <iframe
@@ -19,4 +19,4 @@ const MusicVideos = () => {
   );
 };
 
-export default MusicVideos;
+export default MusicVideo;

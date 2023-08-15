@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Video from './components/Video';
 import Footer from './components/Footer';
-import MusicVideos from './components/MusicVideos';
+import MusicVideo from './components/MusicVideos';
 import Logo from './components/Logo';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Hero />
       <Video />
       <Logo />
-      <MusicVideos />
+      <MusicVideo />
       <Footer />
     </div>
   )
