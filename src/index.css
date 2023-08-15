@@ -7,3 +7,8 @@
 * {
     font-family: 'Bebas Neue', cursive;
    }
+
+   .sm\:translate-y-150 {
+    transform: translateY(-150px);
+  }
+  
